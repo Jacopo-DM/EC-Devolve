@@ -981,11 +981,11 @@
 <h2 id="building-models">Building Models</h2>
 <p>We can build models by adding and removing blocks from the core.</p>
 <h3 id="adding-blocks-left-click">Adding Blocks (Left Click)</h3>
-<p>When hovering over a block, it will flash <strong>line</strong>, which means a block can be added.
-Block is added by <strong>left-clicking</strong> on the surface on which to add the block.</p>
+<p>When hovering over a block, it will flash <strong>lime</strong>, which means a block can be added. <br>
+A block can be added by <strong>left-clicking</strong> on the surface on which to add the block.</p>
 <div class="admonition warning">
 <p class="admonition-title">Side Compatibility</p>
-<p>Not all sides are compatible with addition; only 'up', 'down', 'left' and 'right'.
+<p>Not all sides are compatible with addition; only 'up', 'down', 'left' and 'right'. <br>
 'Front' and 'back' don't have any mounting points</p>
 </div>
 <p><center></p>
@@ -994,8 +994,8 @@ Block is added by <strong>left-clicking</strong> on the surface on which to add 
 </video>
 <p></center></p>
 <h3 id="remove-blocks-right-click">Remove Blocks (Right Click)</h3>
-<p>When hovering over a block, it will flash <strong>line</strong>, which means a block can be removed (besides the core).
-Block is removed by <strong>right-clicking</strong> on them.</p>
+<p>When hovering over a block, it will flash <strong>lime</strong>, which means a block can be removed (besides the core). <br>
+A block can be removed by <strong>right-clicking</strong> on them.</p>
 <p><center></p>
 <video autoplay loop width="500">
   <source src="../vids/remove.mp4" type="video/mp4">
@@ -1006,7 +1006,7 @@ Block is removed by <strong>right-clicking</strong> on them.</p>
 <p>If you delete a block to which other blocks are attached as children, the whole branch will be removed</p>
 </div>
 <h3 id="brushes">Brushes</h3>
-<p>We have two different types of blocks we can build robots with <code>Bricks</code> and <code>Hinges</code>, both can have a <code>Normal</code> orientation, or can be <code>Rotated</code> by 90 degrees.</p>
+<p>We have two different types of blocks we can build robots with: <code>Bricks</code> and <code>Hinges</code>, both can have a <code>Normal</code> orientation, or can be <code>Rotated</code> by 90 degrees.</p>
 <p>Left-clicking on the control buttons on the bottom of the screen will either toggle <code>Normal</code> to <code>Rotated</code> (left button) or <code>Brick</code> to <code>Hinge</code> (right button).</p>
 <p>These four options are colour coded, reflected by the colour of the button on the left:</p>
 <ul>
@@ -1032,14 +1032,14 @@ Block is removed by <strong>right-clicking</strong> on them.</p>
 eg. <code>cross</code> or <code>cross.yaml</code> -&gt; <code>path/to/file/cross.yaml</code></p>
 </div>
 <h3 id="clearning">Clearning</h3>
-<p>Clicking the "Clear Canvas" button will remove the entire model and produce a clean canvas with only a <code>Core</code> at the centre, as when the app is first opened.</p>
+<p>Clicking the "Clear Canvas" button will remove the entire model and produce a clean canvas with only a <code>Core</code> at the centre (identical to when the app is initially opened).</p>
 <hr />
 <h2 id="loading-yaml">Loading YAML</h2>
 <p>Given a set of YAML files, we can open them into Devolve using the "Load YAML" button.
 This will open a prompt, similar to saving, double-clicking on the desired file will load it into the canvas.</p>
 <div class="admonition note">
 <p class="admonition-title">Other Files</p>
-<p>By default, "Load YAML" will only show directories and files ending with <code>.yaml</code>.</p>
+<p>By default, "Load YAML" will only show files ending with <code>.yaml</code> as well as directories.</p>
 </div>
 <h3 id="devolve-vs-revolve">Devolve vs Revolve</h3>
 <p>Here we see a comparison of a loaded model seen from the side, and the same model loaded in Revolve.</p>
@@ -1047,13 +1047,13 @@ This will open a prompt, similar to saving, double-clicking on the desired file 
 <img src="../imgs/228_dev_diag.jpg" width="500"/>
 <img src="../imgs/228_rev.jpg" width="500"/>
 </center></p>
-<p>As can be noted from this example, the PNG is lacking essential detail (a hinge) in explaining the shape of the model, exemplifying the need for this program.</p>
 <h3 id="devolve-vs-png-generator">Devolve vs PNG Generator</h3>
 <p>Here we see a comparison of a loaded model seen from the top, with the equivalent revolve-generated PNG.
 <center>
 <img src="../imgs/228_dev_top.jpg" width="600"/>
 <img src="../imgs/228_gen.jpg" width="500"/>
 </center></p>
+<p>As can be noted from this example, the PNG is lacking essential detail (a hinge) in explaining the shape of the model, exemplifying the need for this program.</p>
 <hr />
 <h2 id="editing-yamls">Editing YAMLs</h2>
 <p>Editing existing YAML files is just as easy as combining the previous steps: <br> load a YAML file, make the required changes to a YAML file, and then save it.</p>
