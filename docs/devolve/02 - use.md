@@ -56,11 +56,11 @@ We can build models by adding and removing blocks from the core.
 
 ### Adding Blocks (Left Click)
 
-When hovering over a block, it will flash **line**, which means a block can be added.
-Block is added by **left-clicking** on the surface on which to add the block.
+When hovering over a block, it will flash **lime**, which means a block can be added. <br>
+A block can be added by **left-clicking** on the surface on which to add the block.
 
 !!! warning "Side Compatibility"
-    Not all sides are compatible with addition; only 'up', 'down', 'left' and 'right'.
+    Not all sides are compatible with addition; only 'up', 'down', 'left' and 'right'. <br>
     'Front' and 'back' don't have any mounting points
 
 <center>
@@ -72,8 +72,8 @@ Block is added by **left-clicking** on the surface on which to add the block.
 
 ### Remove Blocks (Right Click)
 
-When hovering over a block, it will flash **line**, which means a block can be removed (besides the core).
-Block is removed by **right-clicking** on them.
+When hovering over a block, it will flash **lime**, which means a block can be removed (besides the core). <br>
+A block can be removed by **right-clicking** on them.
 
 <center>
 <video autoplay loop width="500">
@@ -86,7 +86,7 @@ Block is removed by **right-clicking** on them.
 
 ### Brushes
 
-We have two different types of blocks we can build robots with `Bricks` and `Hinges`, both can have a `Normal` orientation, or can be `Rotated` by 90 degrees.
+We have two different types of blocks we can build robots with: `Bricks` and `Hinges`, both can have a `Normal` orientation, or can be `Rotated` by 90 degrees.
 
 Left-clicking on the control buttons on the bottom of the screen will either toggle `Normal` to `Rotated` (left button) or `Brick` to `Hinge` (right button).
 
@@ -122,7 +122,7 @@ Complete the operation, clicking the "Save" button, the new YAML file can now be
 
 
 ### Clearning
-Clicking the "Clear Canvas" button will remove the entire model and produce a clean canvas with only a `Core` at the centre, as when the app is first opened.
+Clicking the "Clear Canvas" button will remove the entire model and produce a clean canvas with only a `Core` at the centre (identical to when the app is initially opened).
 
 ---
 
@@ -131,7 +131,7 @@ Given a set of YAML files, we can open them into Devolve using the "Load YAML" b
 This will open a prompt, similar to saving, double-clicking on the desired file will load it into the canvas.
 
 !!! note "Other Files"
-    By default, "Load YAML" will only show directories and files ending with `.yaml`.
+    By default, "Load YAML" will only show files ending with `.yaml` as well as directories.
 
 ### Devolve vs Revolve
 Here we see a comparison of a loaded model seen from the side, and the same model loaded in Revolve.
@@ -141,9 +141,6 @@ Here we see a comparison of a loaded model seen from the side, and the same mode
 <img src="../imgs/228_rev.jpg" width="500"/>
 </center>
 
-As can be noted from this example, the PNG is lacking essential detail (a hinge) in explaining the shape of the model, exemplifying the need for this program.
-
-
 ### Devolve vs PNG Generator
 
 Here we see a comparison of a loaded model seen from the top, with the equivalent revolve-generated PNG.
@@ -151,6 +148,8 @@ Here we see a comparison of a loaded model seen from the top, with the equivalen
 <img src="../imgs/228_dev_top.jpg" width="600"/>
 <img src="../imgs/228_gen.jpg" width="500"/>
 </center>
+
+As can be noted from this example, the PNG is lacking essential detail (a hinge) in explaining the shape of the model, exemplifying the need for this program.
 
 ---
 ## Editing YAMLs
