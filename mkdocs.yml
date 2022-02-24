@@ -1,0 +1,50 @@
+site_name: EC Dev Log
+# site_url: https://example.com/
+nav:
+  - Revolve 1 on M1:
+    - revolve1/index.md
+    - 1. Prerequisites: "revolve1/01 - prerequisites.md"
+    - 2. Anconda / Miniforge: "revolve1/02 - miniforge.md"
+    - 3. Cloning The Repo: "revolve1/03 - cloning_repo.md"
+    - 4. Virtual Env: "revolve1/04 - virtual_env.md"
+    - 5. Gazebo: "revolve1/05 - gazebo.md"
+    - 6. MultiNEAT: "revolve1/06 - multineat.md"
+    - 7. Installing Revolve: "revolve1/07 - revolve.md"
+    - 8. Running Revolve: "revolve1/08 - watch.md"
+  - Revolve 2 on M1:
+    - revolve2/index.md
+  - Devolve (YAML Editor):
+    - devolve/index.md
+    - 1. Installing Devolve: "devolve/01 - install.md"
+    - 2. Using Devolve: "devolve/02 - use.md"
+  - Building The Robot:
+    - building/index.md
+theme:
+  favicon: images/robot-happy.png
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+  name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+      primary: indigo
+      accent: deep orange
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+      primary: deep orange
+      accent: indigo
+  icon:
+    logo: material/robot-happy
+markdown_extensions:
+  - admonition
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences
