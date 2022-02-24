@@ -17,9 +17,9 @@ Its primary function is to act as a tutorial or guide to prospective students fa
 
 This website is composed of four primary sections:
 
-- [Installing Revolve 1 on M1 Mac's](/revolve1)
-- [Installing Revolve 2 on M1 Mac's](/revolve2)
-- [Using Devolve (YAML Robot Editor)](/devolve)
-- [Building Robots (From Software to Hardware)](/building)
+- [Installing Revolve 1 on M1 Mac's](./revolve1)
+- [Installing Revolve 2 on M1 Mac's](./revolve2)
+- [Using Devolve (YAML Robot Editor)](./devolve)
+- [Building Robots (From Software to Hardware)](./building)
 
 ---
