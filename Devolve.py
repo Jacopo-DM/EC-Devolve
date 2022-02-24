@@ -25,6 +25,7 @@ Example:
 
 TODO:
 - [ ] Undo/Redo
+- [ ] Remove adding blocks to side of hinges
 
 This code is provided 'As Is'.
 """

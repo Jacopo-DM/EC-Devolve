@@ -12,7 +12,7 @@ Once the app is selected, the camera controls are easy:
 You can zoom by **scrolling the mouse-wheel**
 
 <center>
-<video autoplay loop width="500">
+<video autoplay loop width="80%">
   <source src="../vids/zoom.mp4" type="video/mp4">
 </video>
 </center>
@@ -21,7 +21,7 @@ You can zoom by **scrolling the mouse-wheel**
 You can rotate the model by **right-clicking, holding the click and moving the mouse**.
 
 <center>
-<video autoplay loop width="500">
+<video autoplay loop width="80%">
   <source src="../vids/rotate.mp4" type="video/mp4">
 </video>
 </center>
@@ -30,7 +30,7 @@ You can rotate the model by **right-clicking, holding the click and moving the m
 You can pan the view by **middle-clicking the mouse, holding the click and moving the mouse**.
 
 <center>
-<video autoplay loop width="500">
+<video autoplay loop width="80%">
   <source src="../vids/pan.mp4" type="video/mp4">
 </video>
 </center>
@@ -64,7 +64,7 @@ A block can be added by **left-clicking** on the surface on which to add the blo
     'Front' and 'back' don't have any mounting points
 
 <center>
-<video autoplay loop width="500">
+<video autoplay loop width="80%">
   <source src="../vids/add.mp4" type="video/mp4">
 </video>
 </center>
@@ -76,7 +76,7 @@ When hovering over a block, it will flash **lime**, which means a block can be r
 A block can be removed by **right-clicking** on them.
 
 <center>
-<video autoplay loop width="500">
+<video autoplay loop width="80%">
   <source src="../vids/remove.mp4" type="video/mp4">
 </video>
 </center>
